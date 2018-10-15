@@ -1,80 +1,113 @@
 <template>
 <div id = "app">
  <v-app id="light">
+   <v-content>
    <v-container fluid>
       <v-layout row wrap>
 
 
 <!-- Yellow top block -->
 
-    <v-flex xs12>
-     <v-card tile class="yellow black--text" > 
-      <v-card-text  > 
-        <h1 class="text-sm-left"   >Bongo Faster</h1>
-        <p class="text-sm-left" >
-         UDART Mobile App: Mwendokasi on your hands
-        </p>
-      </v-card-text>
-      <v-flex  offset-sm8 md2>
-          <v-img src="/lib/img/hand-1.png"> 
-            </v-img>
-       </v-flex>  
+  <v-flex xs12>
+    <v-card   
+      tile 
+       class="yellow black--text" > 
+
+      <v-layout row wrap>
+           <v-flex xs7> 
+              <v-card-text  > 
+                <h1 class="mb-2 display-4 text-xs-center"  >BONGO 
+                     </br> FASTER </h1>
+                 <p class="title text-sm-center" >
+                  UDART Mobile App: Mwendokasi on your hands
+                 </p>
+              </v-card-text>
+           </v-flex>
+
+            <v-flex offset xs5 md2>
+             <v-img src="/lib/img/hand-1.png"> 
+               </v-img>
+            </v-flex> 
+      </v-layout> 
      </v-card>
-    </v-flex>
+  </v-flex>
+
 
 <!-- second block -->
+             <v-flex xs6 >
 
-            <v-flex xs6 >
+              <!-- first card with lady background -->
               <v-card 
-              
-              img ="/lib/img/top-pht-1.jpg"
-              tile
-              height="420px">
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Realtime UDART Info.</div>
-                </v-card-title>
-                <v-card-text>
-                 <strong> know the route status </br>
-                  Get bus schedule </br>
-                  Your nearest Station </strong>
-                </v-card-text>
+                 img ="/lib/img/top-pht-1.jpg"
+                 tile
+                 height="420px">
 
-                <v-flex offset-sm2 md2>
-                  <v-img src="/lib/img/smartphone.png"> 
-                  </v-img>
-                </v-flex>
-                
-                  
-                
-              </v-card>
-            </v-flex>
+              <v-container fluid>
+                  <v-content>
+                     <v-layout row wrap>
+                       <v-card-title primary-title class="layout justify-center">
+                      <div class="headline">Realtime UDART Info.</div>
+                     </v-card-title>
 
-            <v-flex xs6 >
-              <v-card 
-              color=green 
-              tile 
-              height="420px">
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Get Route Information,</br> Know station locations, </br> Get Bus Location, Plan Your Trip</div>
-                </v-card-title>
-                <v-card-text  >
-                  <strong> reason to miss the bus </br>
-                  No reason to be late </strong>
-                </v-card-text>
-                <v-img
-                  src="/lib/img/hand-2.png"
-                   aspect-ratio="3"
-                   ></v-img>
-              </v-card>
-            </v-flex>
+                    <v-card-text>
+                         <strong> know the route status </br>
+                       Get bus schedule </br>
+                          Your nearest Station </strong>
+                            </v-card-text>
+                           <v-flex >
+                              <v-img 
+                              src="/lib/img/smartphone.png"> 
+                                  </v-img>
+                            </v-flex> 
 
+                     </v-layout>
+                   </v-content>
+               </v-container>
+             </v-card>
+          </v-flex>
+
+                 <!-- 2nd block, card with green background -->
+
+          <v-flex xs6 >
+
+            <v-card 
+                   color=green 
+                   tile 
+                   height="420px"
+                   class="white--text">
+
+                     <v-flex>
+                         <v-card-title primary-title class="layout justify-center">
+                           <div class="headline">Get Route Information,
+                           </br> Know station locations, 
+                            </br> Get Bus Location, Plan Your Trip</div>
+                        </v-card-title>
+
+                            <v-card-text  >
+                              <strong> No reason to miss the bus </br>
+                                 No reason to be late </strong>
+                             </v-card-text>
+                      </v-flex>
+
+                    <v-flex>
+                        <v-img
+                         src="/lib/img/hand-2.png"
+                         >   
+                         </v-img>                    
+                    </v-flex>
+           </v-card>
+          </v-flex>
+             
+    
 <!-- 3rd block Give feedback, new updates-->
 
         <v-flex xs6 >
-              <v-card 
-              color=purple class="elevation-0 transparent"
+          <v-card 
+              color=purple 
+              class="elevation-0 transparent white--text "
               img src="/lib/img/top-pht-1.jpg"
-              height="420px">
+              height="420px">  
+            <v-flex >
                 <v-card-title primary-title class="layout justify-center">
                   <div class="headline">Give Feedback</div>
                 </v-card-title>
@@ -84,13 +117,18 @@
                   UDART gives you reliable transport at reasonable cost </br>
                   Tell us your suggestions so that we remain reliable </strong>
                 </v-card-text>
+                </v-flex>
+
+                <v-flex >
                 <v-img
                   src="/lib/img/hand-3.png"
                    aspect-ratio="2.75"
                    ></v-img>
-              </v-card>
-              </v-card>
-            </v-flex>
+                </v-flex>
+            </v-card>
+             
+              </v-flex>
+
             <v-flex xs6 >
               <v-card 
               class="elevation-0 transparent"
@@ -105,7 +143,7 @@
                   Any changes on routes schedule, new routes information </strong>
                 </v-card-text>
               </v-card>
-            </v-flex>
+          </v-flex>
 
 
 <!-- 4th block, how to use bongo Faster -->
@@ -130,7 +168,8 @@
         <v-flex xs4 >
               <v-card tile color=yellow class="elevation-0 transparent"
               img ="/lib/img/top-pht-3.png"
-              height="300px">
+              height="300px"
+              aspect-ratio="1">
                 <v-card-title primary-title class="layout justify-center"
                 height="250px">
                   <div class="headline">Knowing your current location, </br> Makes you enjoy all features</div>
@@ -139,8 +178,9 @@
                   
                 </v-card-text>
               </v-card>
-            </v-flex>
-            <v-flex xs4 >
+         </v-flex>
+
+         <v-flex xs4 >
               <v-card
               img ="/lib/img/top-pht-5.png"
               color=green
@@ -154,8 +194,9 @@
                   
                 </v-card-text>
               </v-card>
-            </v-flex>
-            <v-flex xs4 >
+           </v-flex>
+
+          <v-flex xs4 >
               <v-card 
               img ="/lib/img/top-pht-4.png"
               color=blue lighten-2
@@ -169,9 +210,7 @@
                   
                 </v-card-text>
               </v-card>
-            </v-flex>
-
-
+           </v-flex>
 
 <!-- Last block, footer -->
 
@@ -193,7 +232,9 @@
   
 
       </v-layout>
+      
     </v-container>
+    </v-content>
    </v-app>
 </div>
 </template>
