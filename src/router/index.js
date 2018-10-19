@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '../components/HelloWorld.vue'
 import home from '../components/home.vue'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history'
+  ,base: '/',
   routes: [
     {
       path: '/',
@@ -13,4 +14,7 @@ export default new Router({
       component: home
     }
   ]
-})
+  ,scrollBehavior : function( to, from, savedPosition ){
+		return { x:0, y:0 }
+	}
+});
