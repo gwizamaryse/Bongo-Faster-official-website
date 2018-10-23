@@ -2,12 +2,11 @@
 <div id = "app">
  <v-app lighten-2>
    <v-content>
-   <v-container >
+   <v-container grid-list xs12 sm6>
       <v-layout row wrap>
 
-
 <!-- Yellow top block -->
-  <v-flex xs6  >
+  <v-flex md6 >
             <v-card   
                    tile 
                    class="yellow black--text elevation-0 transparent"
@@ -15,7 +14,7 @@
                    <v-card-text  > 
 
                    <h1 class="mb-2 display-4 text-xs-center">BONGO</br>FASTER </h1>
-                   <p class="title align-content-center" >
+                   <p class="title align-content-center lightitalic" >
                     UDART Mobile App: Mwendokasi on your hands </br>
                         </p>
                     <v-container grid-list>
@@ -29,19 +28,14 @@
                            <a target="_blank" 
                            href="https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8" class="bongo--icon app-store"></a>
                          </v-flex>
-
-                  
-                       
-                       
                       </v-layout>
-                    </v-container>
-                   
+                    </v-container>     
              </v-card-text>  
             </v-card> 
           
     </v-flex>
 
-    <v-flex class=" xs6">
+    <v-flex class=" md6">
               <v-card 
                    tile 
                    class="yellow black--text elevation-0 transparent" 
@@ -50,7 +44,8 @@
              <v-img 
               src="/lib/img/hand-1.png"
               class=" contain"
-              auto-height> 
+              auto-height
+              > 
                </v-img>
 
                </v-card>
@@ -59,7 +54,7 @@
    
       
 <!-- second block -->
-      <v-flex xs6 >
+      <v-flex md6 >
               <!-- first card with lady background -->
               <v-card 
                  img ="/lib/img/top-pht-1.jpg"
@@ -79,7 +74,7 @@
                        <v-flex >
                               <v-img                        
                               src="/lib/img/smartphone.png"
-                              height="230"
+                              height="250"
                               contain
                               position="left"
                               > </v-img>
@@ -89,7 +84,7 @@
 
                  <!-- 2nd block, card with green background -->
 
-          <v-flex xs6 >
+          <v-flex md6 >
 
             <v-card 
                    color=green 
@@ -113,7 +108,7 @@
                     <v-flex>
                         <v-img
                          src="/lib/img/hand-2.png"
-                         aspect-ratio="1.2"
+                         height="300"
                          position="left">   
                          </v-img>                    
                     </v-flex>
@@ -123,11 +118,11 @@
     
 <!-- 3rd block Give feedback, new updates-->
 
-        <v-flex xs6 >
+        <v-flex md6 >
           <v-card 
               color=purple 
-              class="elevation-0 transparent white--text "
-              height="450px">  
+              class="white--text "
+              height="460px">  
               <v-flex >
                   <v-card-title primary-title class="layout justify-center">
                     <div class="headline">Give Feedback</div>
@@ -140,21 +135,23 @@
                   </v-card-text>
                 </v-flex>
 
-               <v-flex>
+             <v-flex>
                     <v-img
                     src="/lib/img/hand-3.png"
+                    position="left"
+                    height="250"
                     contain></v-img>
-                </v-flex>
+                </v-flex> 
             </v-card>
              
               </v-flex>
 
-            <v-flex xs6 >
+            <v-flex md6 >
               <v-card 
               class="elevation-0 transparent"
               img ="/lib/img/top-pht-2.jpg" 
               tile 
-              height="450px"
+              height="460px"
               contain>
                 <v-card-title primary-title class="layout justify-center">
                   <div class="headline">Get News Updates, Safety tips, 
@@ -162,12 +159,13 @@
                 </v-card-title>
                 <v-card-text  >
                  <strong> Get notification from UDART on time </br>
-                  Any changes on routes schedule, new routes information </strong>
+                  Any changes on routes schedule, 
+                  </br> new routes information </strong>
                 </v-card-text>
                 <v-flex ml-5>
                               <v-img                        
                               src="/lib/img/smartphone.png"
-                              height="240"
+                              height="250"
                               contain
                               position="left"
                               > </v-img>
@@ -178,7 +176,7 @@
 
 <!-- 4th block, how to use bongo Faster -->
 
-            <v-flex xs12 >
+            <v-flex md12 >
               <v-card 
               class="elevation-0 transparent"
               tile 
@@ -195,57 +193,57 @@
 
 <!-- 5th block Current Location, search station, time table-->
 
-        <v-flex xs4 md4>
-              <v-card tile color=yellow class="elevation-0 transparent"
-              img ="/lib/img/top-pht-3.png"
-              height="300px"
-              aspect-ratio="1">
+        <v-flex md4 wrap>
+              <v-card tile color=yellow 
+              height="320px">
                 <v-card-title primary-title class="layout justify-center"
                 height="250px">
-                  <div class="headline">Knowing your current location, </br> Makes you enjoy all features</div>
+                  <strong>Knowing your current location, </br> Makes you enjoy all features</strong>
                 </v-card-title>
-                <v-card-text>
-                  
-                </v-card-text>
+                <v-img
+                  src ="/lib/img/top-pht-3.png"
+                  max-height="240">
+                </v-img>
               </v-card>
          </v-flex>
 
-         <v-flex xs4 md4>
+         <v-flex md4 wrap>
               <v-card
-              img ="/lib/img/top-pht-5.png"
               color=green
-              class="elevation-0 transparent"
               tile 
-              height="300px">
+              height="320px">
                 <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Search your stations accordingly</div>
+                  <strong>Search your stations accordingly</strong>
                 </v-card-title>
-                <v-card-text  >
-                  
-                </v-card-text>
+                <v-img
+                src="/lib/img/top-pht-5.png"
+                max-height="250"
+                >
+                </v-img>
               </v-card>
            </v-flex>
 
-          <v-flex xs4 md4 >
+          <v-flex md4 wrap>
               <v-card 
-              img ="/lib/img/top-pht-4.png"
-              aspect-ratio="1"
               color=blue lighten-2
-              class="elevation-0 transparent "
               tile 
-              height="300px">
+              height="320px">
                 <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Check the time table</div>
+                  <strong>Check the time table</strong>
                 </v-card-title>
-                <v-card-text  >
-                  
-                </v-card-text>
+                <v-img
+                src="/lib/img/top-pht-4.png"
+                height="260"
+                
+                
+              > 
+                </v-img>
               </v-card>
            </v-flex>
 
            <!-- App Store and GooglePlay Logo/Links -->
 
-            <v-flex xs12 >
+            <v-flex md12 >
               <v-card 
               class="elevation-0 transparent"
               tile 
@@ -254,22 +252,22 @@
                       <v-layout justify-center row wrap > 
 
 
-                        <v-flex xs3>
+                        <v-flex md3 wrap>
 
                         </v-flex>
                     
-                         <v-flex xs3 wrap>
+                         <v-flex md3 wrap>
                           <a target="_blank" 
                             href="https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8" class="bongo--icon google-play"></a>
                          </v-flex>
                           
 
-                         <v-flex xs3 wrap>
+                         <v-flex md3 wrap>
                            <a target="_blank" 
                            href="https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8" class="bongo--icon app-store"></a>
                          </v-flex>
 
-                         <v-flex xs3>
+                         <v-flex md3>
                            
                          </v-flex>
                        
@@ -280,7 +278,7 @@
 
 <!-- Last block, footer -->
 
-      <v-flex xs12  >
+      <v-flex md12  >
           <v-footer height="auto">
             <v-layout justify-center row wrap>
                <v-btn v-for="link in links"  :key="link" flat round >
