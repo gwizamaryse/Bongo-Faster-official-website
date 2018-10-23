@@ -2,7 +2,7 @@
 <div id = "app">
  <v-app lighten-2>
    <v-content>
-   <v-container grid-list xs12 sm6>
+   <v-container grid-list>
       <v-layout row wrap>
 
 <!-- Yellow top block -->
@@ -14,10 +14,10 @@
                    <v-card-text  > 
 
                    <h1 class="mb-2 display-4 text-xs-center">BONGO</br>FASTER </h1>
-                   <p class="title align-content-center lightitalic" >
+                   <p class="title align-content-center italic" >
                     UDART Mobile App: Mwendokasi on your hands </br>
                         </p>
-                    <v-container grid-list>
+                    <v-container grid-list xs md >
                       <v-layout row wrap> 
 
                          <v-flex >
@@ -44,7 +44,7 @@
              <v-img 
               src="/lib/img/hand-1.png"
               class=" contain"
-              auto-height
+              max-height="auto"
               > 
                </v-img>
 
