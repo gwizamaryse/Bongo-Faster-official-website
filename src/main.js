@@ -1,13 +1,15 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router/index.js'
+// Vue JS Modules
+import Vue from 'vue';
+import Vuetify from 'vuetify';
+import VueRouter from 'vue-router';
+Vue.use(Vuetify);
+Vue.use(VueRouter);
 
-import Vuetify from 'vuetify'
-
-// index.js or main.js
-import 'vuetify/dist/vuetify.min.css' // Ensure you are using css-loader
+// Vue JS Components
+import App from './App.vue';
+import home from './home.vue';
 
 // CSS
 import 'vuetify/dist/vuetify.min.css';
@@ -15,13 +17,30 @@ import './css/hack.css';
 import './css/loader.css';
 import './css/main.css';
 
-Vue.use(Vuetify),
-Vue.config.productionTip = false
+// Config (true = Development mode, false = Production mode)
+Vue.config.productionTip = false;
+
+// Router
+const router = new VueRouter({
+	 mode	: 'history'
+	,base	: '/'
+	,routes	: [
+		{
+			 path		: '/'
+			,name		: 'home'
+			,component	: home
+		}
+	]
+	,scrollBehavior : function( to, from, savedPosition ){
+		return { x:0, y:0 }
+	}
+});
 
 /* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+// Main
+const app = new Vue({
+	 el			: '#app'
+	,router
+	,template	: '<App/>'
+	,components	: { App }
 })
