@@ -11880,13 +11880,22 @@ module.exports = function normalizeComponent (
 //
 //
 //
-//
 
 /***/ }),
 /* 7 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -36552,7 +36561,7 @@ exports = module.exports = __webpack_require__(0)(true);
 
 
 // module
-exports.push([module.i, "\n#app {\r\n  font-family: 'Avenir', Helvetica, Arial, sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  color: #2c3e50;\n}\r\n", "", {"version":3,"sources":["C:/Apache/www.bongofaster.co.tz/src/src/App.vue"],"names":[],"mappings":";AAYA;EACA,oDAAA;EACA,oCAAA;EACA,mCAAA;EACA,eAAA;CACA","file":"App.vue","sourcesContent":["<template>\r\n  <v-app lighten-2>\r\n    <v-content>\r\n      <router-view></router-view>\r\n    </v-content>\r\n  </v-app>\r\n</template>\r\n\r\n<script>\r\n</script>\r\n\r\n<style>\r\n#app {\r\n  font-family: 'Avenir', Helvetica, Arial, sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  color: #2c3e50;\r\n}\r\n</style>\r\n"],"sourceRoot":""}]);
+exports.push([module.i, "\n#app {\r\n  font-family: 'Avenir', Helvetica, Arial, sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  color: #2c3e50;\n}\r\n", "", {"version":3,"sources":["C:/Users/marys/Documents/www.bongofaster.co.tz/src/src/App.vue"],"names":[],"mappings":";AAWA;EACA,oDAAA;EACA,oCAAA;EACA,mCAAA;EACA,eAAA;CACA","file":"App.vue","sourcesContent":["<template>\r\n  <v-app lighten-2>\r\n    <v-content>\r\n      <router-view></router-view>\r\n    </v-content>\r\n  </v-app>\r\n</template>\r\n<script>\r\n</script>\r\n\r\n<style>\r\n#app {\r\n  font-family: 'Avenir', Helvetica, Arial, sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  color: #2c3e50;\r\n}\r\n</style>\r\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -36709,7 +36718,7 @@ exports = module.exports = __webpack_require__(0)(true);
 
 
 // module
-exports.push([module.i, "\n.canbe--icon.app-store{\r\n\tbackground-image: url('/lib/img/r2-app-store.png');\r\n\twidth: 150px;\r\n\theight: 49px;\n}\n.canbe--icon.google-play{\r\n\tbackground-image: url('/lib/img/r2-google-play.png');\r\n\twidth: 150px;\r\n\theight: 45px;\n}\n.canbe--icon{\r\n\tmargin: auto;\r\n\tdisplay: block;\r\n\theight: 100%;\r\n\toverflow: hidden;\r\n\ttext-indent: 100%;\r\n\twhite-space: nowrap;\r\n\tbackground-size: contain;\r\n\t-webkit-transition: 0.3s ease;\r\n\ttransition: 0.3s ease;\n}\n.canbe--text-on-img{\r\n\tline-height: 150% !important;\r\n\ttext-shadow: 1px 1px 0 rgba(255,255,255, 0.5), 1px 0 0 rgba(255,255,255, 0.5), 1px -1px 0 rgba(255,255,255, 0.5), 0 1px 0 rgba(255,255,255, 0.5), 0 -1px 0 rgba(255,255,255, 0.5), -1px 1px 0 rgba(255,255,255, 0.5), -1px 0 0 rgba(255,255,255, 0.5), -1px -1px 0 rgba(255,255,255, 0.5);\n}\r\n", "", {"version":3,"sources":["C:/Apache/www.bongofaster.co.tz/src/src/home.vue"],"names":[],"mappings":";AAoMA;CACA,mDAAA;CACA,aAAA;CACA,aAAA;CACA;AACA;CACA,qDAAA;CACA,aAAA;CACA,aAAA;CACA;AACA;CACA,aAAA;CACA,eAAA;CACA,aAAA;CACA,iBAAA;CACA,kBAAA;CACA,oBAAA;CACA,yBAAA;CACA,8BAAA;CACA,sBAAA;CACA;AACA;CACA,6BAAA;CACA,0RAAA;CACA","file":"home.vue","sourcesContent":["<template>\r\n  <div>\r\n    <!-- Yellow top block -->\r\n    <v-container fluid class=\"pa-0\">\r\n      <v-layout row wrap>\r\n        <v-flex md6>\r\n          <v-card tile class=\"yellow black--text elevation-0 transparent\" height=\"500px\">\r\n            <v-card-text>\r\n              <h1 class=\"mb-2 display-3 text-xs-center\">BONGO<br>FASTER</h1>\r\n              <p class=\"title align-content-center italic\">UDART Mobile App: Mwendokasi on your hands</p>\r\n              <v-container grid-list xs md>\r\n                <v-layout row wrap>\r\n                  <v-flex><a target=\"_blank\" href=\"https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8\" class=\"canbe--icon google-play\"></a></v-flex>\r\n                  <v-flex><a target=\"_blank\" href=\"https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8\" class=\"canbe--icon app-store\"></a></v-flex>\r\n                </v-layout>\r\n              </v-container>\r\n            </v-card-text>\r\n          </v-card>\r\n        </v-flex>\r\n        <v-flex class=\" md6\">\r\n          <v-card tile class=\"yellow black--text elevation-0 transparent\" height=\"500px\">\r\n            <v-img src=\"/lib/img/hand-1.png\" class=\" contain\" max-height=\"auto\"></v-img>\r\n          </v-card>\r\n        </v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n\r\n    <!-- second block -->\r\n    <v-container fluid class=\"pa-0\">\r\n      <v-layout row wrap>\r\n        <v-flex md6>\r\n          <!-- first card with lady background -->\r\n          <v-card img =\"/lib/img/top-pht-1.jpg\" tile height=\"460\" class=\"pl-4\">\r\n            <v-card-title primary-title>\r\n              <div class=\"headline\">Realtime UDART Info.</div>\r\n            </v-card-title>\r\n            <v-card-text class=\"md-2 layout justify-start\">\r\n              <strong>\r\n                know the route status<br>\r\n                Get bus schedule<br>\r\n                Your nearest Station\r\n              </strong>\r\n            </v-card-text>\r\n            <v-flex>\r\n              <v-img src=\"/lib/img/smartphone.png\" height=\"250\" contain position=\"left\"></v-img>\r\n            </v-flex>\r\n          </v-card>\r\n        </v-flex>\r\n        <!-- 2nd block, card with green background -->\r\n        <v-flex md6>\r\n          <v-card color=green tile height=\"460px\" class=\"white--text\" row wrap>\r\n            <v-flex>\r\n              <v-card-title primary-title class=\"layout justify-center\">\r\n                <div class=\"headline\">\r\n                  Get Route Information,<br>\r\n                  Know station locations,<br>\r\n                  Get Bus Location, Plan Your Trip\r\n                  </div>\r\n              </v-card-title>\r\n              <v-card-text>\r\n                No reason to miss the bus<br>\r\n                No reason to be late\r\n              </v-card-text>\r\n            </v-flex>\r\n            <v-flex>\r\n              <v-img src=\"/lib/img/hand-2.png\" height=\"300\" position=\"left\"></v-img>\r\n            </v-flex>\r\n          </v-card>\r\n        </v-flex>\r\n        <v-flex md6>\r\n          <v-card color=purple class=\"white--text \" height=\"460px\">\r\n            <v-flex>\r\n              <v-card-title primary-title class=\"layout justify-center\">\r\n                <div class=\"headline\">Give Feedback</div>\r\n              </v-card-title>\r\n              <v-card-text>\r\n                <strong>\r\n                  we aim at satisfying our customers<br>\r\n                  Hearing from our customers, gives courage for improvement<br>\r\n                  UDART gives you reliable transport at reasonable cost<br>\r\n                  Tell us your suggestions so that we remain reliable\r\n                </strong>\r\n              </v-card-text>\r\n            </v-flex>\r\n            <v-flex>\r\n              <v-img src=\"/lib/img/hand-3.png\" position=\"left\" height=\"250\" contain></v-img>\r\n            </v-flex>\r\n          </v-card>\r\n        </v-flex>\r\n        <v-flex md6>\r\n          <v-card class=\"elevation-0 transparent\" img =\"/lib/img/top-pht-2.jpg\" tile height=\"460px\" contain>\r\n            <v-card-title primary-title class=\"layout justify-center\">\r\n              <div class=\"headline\">\r\n                Get News Updates, Safety tips,<br>\r\n                guides and share\r\n              </div>\r\n            </v-card-title>\r\n            <v-card-text>\r\n              <strong>\r\n                Get notification from UDART on time<br>\r\n                Any changes on routes schedule,<br>\r\n                new routes information\r\n              </strong>\r\n            </v-card-text>\r\n            <v-flex ml-5>\r\n              <v-img src=\"/lib/img/smartphone.png\" height=\"250\" contain position=\"left\"></v-img>\r\n            </v-flex>\r\n          </v-card>\r\n        </v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n\r\n    <!-- 4th block, how to use bongo Faster -->\r\n    <v-container fluid class=\"pa-0\">\r\n      <v-layout row wrap>\r\n        <v-flex md12>\r\n          <v-card class=\"elevation-0 transparent\" tile>\r\n            <v-card-title primary-title class=\"layout justify-center\">\r\n              <div class=\"headline\">How to Use Bongofaster</div>\r\n            </v-card-title>\r\n            <v-card-text><strong>Simple | Multilingual | Faster</strong></v-card-text>\r\n          </v-card>\r\n        </v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n\r\n    <!-- 5th block Current Location, search station, time table-->\r\n    <v-container fluid class=\"pa-0\">\r\n      <v-layout row wrap >\r\n        <v-flex md4 sm12 xs12>\r\n          <v-card tile color=\"yellow\">\r\n            <v-card-media src=\"/lib/img/top-pht-3.png\" cover aspect-ratio>\r\n              <v-card-text class=\"canbe--text-on-img text-xs-center title\">Knowing your current location,<br>Makes you enjoy all features</v-card-text>\r\n            </v-card-media>\r\n          </v-card>\r\n        </v-flex>\r\n        <v-flex md4 sm6 xs12>\r\n          <v-card tile color=\"green\">\r\n            <v-card-media src=\"/lib/img/top-pht-5.png\" cover aspect-ratio>\r\n              <v-card-text class=\"canbe--text-on-img text-xs-center title\">Search your stations accordingly</v-card-text>\r\n            </v-card-media>\r\n          </v-card>\r\n        </v-flex>\r\n        <v-flex md4 sm6 xs12>\r\n          <v-card tile color=\"blue\">\r\n            <v-card-media src=\"/lib/img/top-pht-4.png\" cover aspect-ratio>\r\n              <v-card-text class=\"canbe--text-on-img text-xs-center title\">Check the time table</v-card-text>\r\n            </v-card-media>\r\n          </v-card>\r\n        </v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n\r\n    <!-- App Store and GooglePlay Logo/Links -->\r\n    <v-container fluid class=\"px-1 py-3\">\r\n      <v-layout row wrap>\r\n        <v-flex xs6><a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=tz.co.bongofaster.app&hl=en\" class=\"canbe--icon google-play\"></a></v-flex>\r\n        <v-flex xs6><a target=\"_blank\" href=\"https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8\" class=\"canbe--icon app-store\"></a></v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n\r\n    <!-- Last block, footer -->\r\n    <v-container fluid class=\"pa-0\">\r\n      <v-layout row wrap>\r\n        <v-flex md12>\r\n          <v-footer height=\"auto\">\r\n            <v-layout justify-center row wrap>\r\n              <v-btn v-for=\"link in links\" :key=\"link\" flat round>{{ link }}</v-btn>\r\n              <v-flex py-2 text-xs-center xs12><strong>Studio Canbe Corp &copy; 2019</strong></v-flex>\r\n            </v-layout>\r\n          </v-footer>\r\n        </v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n\tdata: () => ({\r\n\t\tlinks: [\r\n\t\t\t 'About'\r\n\t\t\t,'Blog'\r\n\t\t\t,'Help'\r\n\t\t\t,'Language'\r\n\t\t\t,'News'\r\n\t\t\t,'Support'\r\n\t\t\t,'Parterns'\r\n\t\t\t,'terms of Services'\r\n\t\t\t,'Privacy Policy'\r\n\t\t]\r\n\t})\r\n}\r\n</script>\r\n\r\n<style>\r\n.canbe--icon.app-store{\r\n\tbackground-image: url('/lib/img/r2-app-store.png');\r\n\twidth: 150px;\r\n\theight: 49px;\r\n}\r\n.canbe--icon.google-play{\r\n\tbackground-image: url('/lib/img/r2-google-play.png');\r\n\twidth: 150px;\r\n\theight: 45px;\r\n}\r\n.canbe--icon{\r\n\tmargin: auto;\r\n\tdisplay: block;\r\n\theight: 100%;\r\n\toverflow: hidden;\r\n\ttext-indent: 100%;\r\n\twhite-space: nowrap;\r\n\tbackground-size: contain;\r\n\t-webkit-transition: 0.3s ease;\r\n\ttransition: 0.3s ease;\r\n}\r\n.canbe--text-on-img{\r\n\tline-height: 150% !important;\r\n\ttext-shadow: 1px 1px 0 rgba(255,255,255, 0.5), 1px 0 0 rgba(255,255,255, 0.5), 1px -1px 0 rgba(255,255,255, 0.5), 0 1px 0 rgba(255,255,255, 0.5), 0 -1px 0 rgba(255,255,255, 0.5), -1px 1px 0 rgba(255,255,255, 0.5), -1px 0 0 rgba(255,255,255, 0.5), -1px -1px 0 rgba(255,255,255, 0.5);\r\n}\r\n</style>\r\n"],"sourceRoot":""}]);
+exports.push([module.i, "\n.canbe--icon.app-store{\r\n\tbackground-image: url('/lib/img/r2-app-store.png');\r\n\twidth: 150px;\r\n\theight: 49px;\n}\n.canbe--icon.google-play{\r\n\tbackground-image: url('/lib/img/r2-google-play.png');\r\n\twidth: 150px;\r\n\theight: 45px;\n}\n.canbe--icon{\r\n\tmargin: auto;\r\n\tdisplay: block;\r\n\theight: 100%;\r\n\toverflow: hidden;\r\n\ttext-indent: 100%;\r\n\twhite-space: nowrap;\r\n\tbackground-size: contain;\r\n\t-webkit-transition: 0.3s ease;\r\n\ttransition: 0.3s ease;\n}\n.canbe--text-on-img{\r\n\tline-height: 150% !important;\r\n\ttext-shadow: 1px 1px 0 \r\n  rgba(255,255,255, 0.5), 1px 0 0 rgba(255,255,255, 0.5), 1px -1px 0 rgba(255,255,255, 0.5), 0 1px 0 rgba(255,255,255, 0.5), 0 -1px 0 rgba(255,255,255, 0.5), -1px 1px 0 rgba(255,255,255, 0.5), -1px 0 0 rgba(255,255,255, 0.5), -1px -1px 0 rgba(255,255,255, 0.5);\n}\n.canbe--icon-position{\r\n  width: 300px;\r\n  margin: auto;\r\n  -webkit-transition: 0.3s ease;\r\n\ttransition: 0.3s ease\n}\r\n", "", {"version":3,"sources":["C:/Users/marys/Documents/www.bongofaster.co.tz/src/src/home.vue"],"names":[],"mappings":";AA8MA;CACA,mDAAA;CACA,aAAA;CACA,aAAA;CACA;AACA;CACA,qDAAA;CACA,aAAA;CACA,aAAA;CACA;AACA;CACA,aAAA;CACA,eAAA;CACA,aAAA;CACA,iBAAA;CACA,kBAAA;CACA,oBAAA;CACA,yBAAA;CACA,8BAAA;CACA,sBAAA;CACA;AACA;CACA,6BAAA;CACA;qQACA;CACA;AACA;EACA,aAAA;EACA,aAAA;EACA,8BAAA;CACA,qBAAA;CACA","file":"home.vue","sourcesContent":["<template>\r\n  <div>\r\n    <!-- 1st Container:Title -->\r\n    <v-container fluid class=\"pa-0\">\r\n      <v-layout row wrap>\r\n        <v-flex md6 sm6 xs12 d-flex>\r\n          <v-card tile class=\"yellow black--text elevation-0 transparent pt-5\" >  \r\n            <v-card-text>\r\n              <h1 class=\"display-4 font-weight-bold text-xs-center text-no-wrap\">BONGO<br>FASTER</h1>\r\n\r\n              <p class=\"title text-xs-center font-weight-regular.font-italic mt-1\">UDART Mobile App: Mwendokasi on your hands</p>\r\n\r\n                 <v-layout class= \"canbe--icon-position\" align-center justify-center row mt-4 >\r\n                 <a target=\"_blank\" \r\n                  href=\"https://play.google.com/store/apps/details?id=tz.co.bongofaster.app&hl=en\" class=\"canbe--icon google-play\"></a>\r\n                  <a target=\"_blank\" \r\n                  href=\"https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8\" class=\"canbe--icon app-store\"></a>\r\n                </v-layout>\r\n              \r\n            </v-card-text>\r\n          </v-card>\r\n        </v-flex>\r\n        <v-flex md6 sm6 xs12 d-flex >\r\n          <v-card tile class=\"yellow black--text elevation-0 transparent\" >\r\n            <v-card-media src=\"/lib/img/hand-1.png\" cover aspect-ratio=\"1.4\" contain></v-card-media>\r\n          </v-card>\r\n        </v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n\r\n    <!-- 2nd Container:Explanation -->\r\n    <v-container fluid class=\"pa-0\">\r\n      <v-layout row wrap>\r\n\r\n        <v-flex md6 sm6 xs12 d-flex>\r\n          \r\n          <v-card img =\"/lib/img/top-pht-1.jpg\" tile  class=\"pl-5\">\r\n            <v-card-title primary-title>\r\n              <div class=\"headline\">Realtime UDART Info</div>\r\n            </v-card-title>\r\n            <v-card-text class=\"md-2 layout justify-start\">\r\n              <strong>\r\n                know the route status<br>\r\n                Get bus schedule<br>\r\n                Your nearest Station\r\n              </strong>\r\n            </v-card-text>\r\n            <v-flex>\r\n              <v-img src=\"/lib/img/smartphone.png\" height=\"250\" contain position=\"left\"></v-img>\r\n            </v-flex>\r\n          </v-card>\r\n        </v-flex>\r\n        \r\n        <v-flex md6 sm6 xs12 >\r\n          <v-card color=green tile class=\"white--text\" row wrap>\r\n            <v-flex >\r\n              <v-card-title class=\"md-title \" >\r\n                Realtime UDART Info\r\n                  Get Route Information,<br>\r\n                  Know station locations,<br>\r\n                  Get Bus Location, Plan Your Trip\r\n                  \r\n              </v-card-title>\r\n              <v-card-text class=\"body \">\r\n                No reason to miss the bus<br>\r\n                No reason to be late\r\n              \r\n              </v-card-text>\r\n            </v-flex>\r\n            <v-flex>\r\n              <v-img src=\"/lib/img/hand-2.png\" position=\"left\"></v-img>\r\n            </v-flex>\r\n          </v-card>\r\n        </v-flex>\r\n\r\n        <v-flex md6 sm6 xs12>\r\n          <v-card color=purple class=\"white--text \" height=\"\">\r\n            <v-flex sm6 xs12>\r\n              <v-card-title primary-title class=\"layout justify-center\">\r\n                <div class=\"headline\">Give Feedback</div>\r\n              </v-card-title>\r\n              <v-card-text>\r\n                <strong>\r\n                  we aim at satisfying our customers<br>\r\n                  Hearing from our customers, gives courage for improvement<br>\r\n                  UDART gives you reliable transport at reasonable cost<br>\r\n                  Tell us your suggestions so that we remain reliable\r\n                </strong>\r\n              </v-card-text>\r\n            </v-flex>\r\n            <v-flex sm6 xs12>\r\n              <v-card-media src=\"/lib/img/hand-3.png\" position=\"right\" ></v-card-media>\r\n            </v-flex>\r\n          </v-card>\r\n        </v-flex>\r\n\r\n\r\n        <v-flex md6 sm6 xs12 d-flex >\r\n          <v-card class=\"elevation-0 transparent\" img =\"/lib/img/top-pht-2.jpg\" tile  contain>\r\n            <v-card-title primary-title class=\"layout justify-center\">\r\n              <div class=\"headline\">\r\n                Get News Updates, Safety tips,<br>\r\n                guides and share\r\n              </div>\r\n            </v-card-title>\r\n            <v-card-text>\r\n              <strong>\r\n                Get notification from UDART on time<br>\r\n                Any changes on routes schedule,<br>\r\n                new routes information\r\n              </strong>\r\n            </v-card-text>\r\n            <v-flex ml-5>\r\n              <v-img src=\"/lib/img/smartphone.png\" height=\"250\" contain position=\"left\"></v-img>\r\n            </v-flex>\r\n          </v-card>\r\n        </v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n\r\n    <!-- 3rd Container:How to Use -->\r\n    <v-container fluid class=\"pa-0\">\r\n      <v-layout row wrap>\r\n        <v-flex md12>\r\n          <v-card class=\"elevation-0 transparent\" tile>\r\n            <v-card-title primary-title class=\"layout justify-center\">\r\n              <div class=\"headline\">How to Use Bongofaster</div>\r\n            </v-card-title>\r\n            <v-card-text class=\"text-xs-center\"><strong>Simple | Multilingual | Faster</strong></v-card-text>\r\n          </v-card>\r\n        </v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n\r\n    <!-- 4th Container:Explanation -->\r\n    \r\n    <v-container fluid class=\"pa-0\">\r\n      <v-layout row wrap >\r\n        <v-flex md4 sm12 xs12>\r\n          <v-card tile color=\"yellow\">\r\n            <v-card-media src=\"/lib/img/top-pht-3.png\" cover aspect-ratio>\r\n              <v-card-text class=\"canbe--text-on-img text-xs-center title\">Knowing your current location,<br>Makes you enjoy all features</v-card-text>\r\n            </v-card-media>\r\n          </v-card>\r\n        </v-flex>\r\n        <v-flex md4 sm6 xs12>\r\n          <v-card tile color=\"green\">\r\n            <v-card-media src=\"/lib/img/top-pht-5.png\" cover aspect-ratio>\r\n              <v-card-text class=\"canbe--text-on-img text-xs-center title\">Search your stations accordingly</v-card-text>\r\n            </v-card-media>\r\n          </v-card>\r\n        </v-flex>\r\n        <v-flex md4 sm6 xs12>\r\n          <v-card tile color=\"blue\">\r\n            <v-card-media src=\"/lib/img/top-pht-4.png\" cover aspect-ratio>\r\n              <v-card-text class=\"canbe--text-on-img text-xs-center title\">Check the time table</v-card-text>\r\n            </v-card-media>\r\n          </v-card>\r\n        </v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n\r\n    <!-- 5th Container:Market Icons -->\r\n    <v-container fluid class=\"px-1 py-3\">\r\n      <v-layout row wrap layout justify-center class=\"canbe--icon-position\">\r\n        <v-flex xs6><a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=tz.co.bongofaster.app&hl=en\" class=\"canbe--icon google-play\"></a></v-flex>\r\n        <v-flex xs6><a target=\"_blank\" href=\"https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8\" class=\"canbe--icon app-store\"></a></v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n\r\n    <!-- Last Container:Footer -->\r\n    <v-container fluid class=\"pa-0\">\r\n      <v-layout row wrap>\r\n        <v-flex md12>\r\n          <v-footer height=\"auto\">\r\n            <v-layout justify-center row wrap>\r\n              <v-btn v-for=\"link in links\" :key=\"link\" flat round>{{ link }}</v-btn>\r\n              <v-flex py-2 text-xs-center xs12><strong>Studio Canbe Corp &copy; 2019</strong></v-flex>\r\n            </v-layout>\r\n          </v-footer>\r\n        </v-flex>\r\n      </v-layout>\r\n    </v-container>\r\n\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n\tdata: () => ({\r\n\t\tlinks: [\r\n\t\t\t 'About'\r\n\t\t\t,'Blog'\r\n\t\t\t,'Help'\r\n\t\t\t,'Language'\r\n\t\t\t,'News'\r\n\t\t\t,'Support'\r\n\t\t\t,'Parterns'\r\n\t\t\t,'terms of Services'\r\n\t\t\t,'Privacy Policy'\r\n\t\t]\r\n\t})\r\n}\r\n</script>\r\n\r\n<style>\r\n.canbe--icon.app-store{\r\n\tbackground-image: url('/lib/img/r2-app-store.png');\r\n\twidth: 150px;\r\n\theight: 49px;\r\n}\r\n.canbe--icon.google-play{\r\n\tbackground-image: url('/lib/img/r2-google-play.png');\r\n\twidth: 150px;\r\n\theight: 45px;\r\n}\r\n.canbe--icon{\r\n\tmargin: auto;\r\n\tdisplay: block;\r\n\theight: 100%;\r\n\toverflow: hidden;\r\n\ttext-indent: 100%;\r\n\twhite-space: nowrap;\r\n\tbackground-size: contain;\r\n\t-webkit-transition: 0.3s ease;\r\n\ttransition: 0.3s ease;\r\n}\r\n.canbe--text-on-img{\r\n\tline-height: 150% !important;\r\n\ttext-shadow: 1px 1px 0 \r\n  rgba(255,255,255, 0.5), 1px 0 0 rgba(255,255,255, 0.5), 1px -1px 0 rgba(255,255,255, 0.5), 0 1px 0 rgba(255,255,255, 0.5), 0 -1px 0 rgba(255,255,255, 0.5), -1px 1px 0 rgba(255,255,255, 0.5), -1px 0 0 rgba(255,255,255, 0.5), -1px -1px 0 rgba(255,255,255, 0.5);\r\n}\r\n.canbe--icon-position{\r\n  width: 300px;\r\n  margin: auto;\r\n  -webkit-transition: 0.3s ease;\r\n\ttransition: 0.3s ease\r\n}\r\n</style>\r\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -36736,13 +36745,14 @@ var render = function() {
             [
               _c(
                 "v-flex",
-                { attrs: { md6: "" } },
+                { attrs: { md6: "", sm6: "", xs12: "", "d-flex": "" } },
                 [
                   _c(
                     "v-card",
                     {
-                      staticClass: "yellow black--text elevation-0 transparent",
-                      attrs: { tile: "", height: "500px" }
+                      staticClass:
+                        "yellow black--text elevation-0 transparent pt-5",
+                      attrs: { tile: "" }
                     },
                     [
                       _c(
@@ -36750,14 +36760,18 @@ var render = function() {
                         [
                           _c(
                             "h1",
-                            { staticClass: "mb-2 display-3 text-xs-center" },
+                            {
+                              staticClass:
+                                "display-4 font-weight-bold text-xs-center text-no-wrap"
+                            },
                             [_vm._v("BONGO"), _c("br"), _vm._v("FASTER")]
                           ),
                           _vm._v(" "),
                           _c(
                             "p",
                             {
-                              staticClass: "title align-content-center italic"
+                              staticClass:
+                                "title text-xs-center font-weight-regular.font-italic mt-1"
                             },
                             [
                               _vm._v(
@@ -36767,39 +36781,35 @@ var render = function() {
                           ),
                           _vm._v(" "),
                           _c(
-                            "v-container",
-                            { attrs: { "grid-list": "", xs: "", md: "" } },
+                            "v-layout",
+                            {
+                              staticClass: "canbe--icon-position",
+                              attrs: {
+                                "align-center": "",
+                                "justify-center": "",
+                                row: "",
+                                "mt-4": ""
+                              }
+                            },
                             [
-                              _c(
-                                "v-layout",
-                                { attrs: { row: "", wrap: "" } },
-                                [
-                                  _c("v-flex", [
-                                    _c("a", {
-                                      staticClass: "canbe--icon google-play",
-                                      attrs: {
-                                        target: "_blank",
-                                        href:
-                                          "https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8"
-                                      }
-                                    })
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("v-flex", [
-                                    _c("a", {
-                                      staticClass: "canbe--icon app-store",
-                                      attrs: {
-                                        target: "_blank",
-                                        href:
-                                          "https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8"
-                                      }
-                                    })
-                                  ])
-                                ],
-                                1
-                              )
-                            ],
-                            1
+                              _c("a", {
+                                staticClass: "canbe--icon google-play",
+                                attrs: {
+                                  target: "_blank",
+                                  href:
+                                    "https://play.google.com/store/apps/details?id=tz.co.bongofaster.app&hl=en"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("a", {
+                                staticClass: "canbe--icon app-store",
+                                attrs: {
+                                  target: "_blank",
+                                  href:
+                                    "https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8"
+                                }
+                              })
+                            ]
                           )
                         ],
                         1
@@ -36813,20 +36823,21 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "v-flex",
-                { staticClass: " md6" },
+                { attrs: { md6: "", sm6: "", xs12: "", "d-flex": "" } },
                 [
                   _c(
                     "v-card",
                     {
                       staticClass: "yellow black--text elevation-0 transparent",
-                      attrs: { tile: "", height: "500px" }
+                      attrs: { tile: "" }
                     },
                     [
-                      _c("v-img", {
-                        staticClass: " contain",
+                      _c("v-card-media", {
                         attrs: {
                           src: "/lib/img/hand-1.png",
-                          "max-height": "auto"
+                          cover: "",
+                          "aspect-ratio": "1.4",
+                          contain: ""
                         }
                       })
                     ],
@@ -36852,22 +36863,18 @@ var render = function() {
             [
               _c(
                 "v-flex",
-                { attrs: { md6: "" } },
+                { attrs: { md6: "", sm6: "", xs12: "", "d-flex": "" } },
                 [
                   _c(
                     "v-card",
                     {
-                      staticClass: "pl-4",
-                      attrs: {
-                        img: "/lib/img/top-pht-1.jpg",
-                        tile: "",
-                        height: "460"
-                      }
+                      staticClass: "pl-5",
+                      attrs: { img: "/lib/img/top-pht-1.jpg", tile: "" }
                     },
                     [
                       _c("v-card-title", { attrs: { "primary-title": "" } }, [
                         _c("div", { staticClass: "headline" }, [
-                          _vm._v("Realtime UDART Info.")
+                          _vm._v("Realtime UDART Info")
                         ])
                       ]),
                       _vm._v(" "),
@@ -36910,52 +36917,35 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "v-flex",
-                { attrs: { md6: "" } },
+                { attrs: { md6: "", sm6: "", xs12: "" } },
                 [
                   _c(
                     "v-card",
                     {
                       staticClass: "white--text",
-                      attrs: {
-                        color: "green",
-                        tile: "",
-                        height: "460px",
-                        row: "",
-                        wrap: ""
-                      }
+                      attrs: { color: "green", tile: "", row: "", wrap: "" }
                     },
                     [
                       _c(
                         "v-flex",
                         [
-                          _c(
-                            "v-card-title",
-                            {
-                              staticClass: "layout justify-center",
-                              attrs: { "primary-title": "" }
-                            },
-                            [
-                              _c("div", { staticClass: "headline" }, [
-                                _vm._v(
-                                  "\n                Get Route Information,"
-                                ),
-                                _c("br"),
-                                _vm._v(
-                                  "\n                Know station locations,"
-                                ),
-                                _c("br"),
-                                _vm._v(
-                                  "\n                Get Bus Location, Plan Your Trip\n                "
-                                )
-                              ])
-                            ]
-                          ),
+                          _c("v-card-title", { staticClass: "md-title " }, [
+                            _vm._v(
+                              "\n              Realtime UDART Info\n                Get Route Information,"
+                            ),
+                            _c("br"),
+                            _vm._v("\n                Know station locations,"),
+                            _c("br"),
+                            _vm._v(
+                              "\n                Get Bus Location, Plan Your Trip\n                \n            "
+                            )
+                          ]),
                           _vm._v(" "),
-                          _c("v-card-text", [
+                          _c("v-card-text", { staticClass: "body " }, [
                             _vm._v("\n              No reason to miss the bus"),
                             _c("br"),
                             _vm._v(
-                              "\n              No reason to be late\n            "
+                              "\n              No reason to be late\n            \n            "
                             )
                           ])
                         ],
@@ -36968,7 +36958,6 @@ var render = function() {
                           _c("v-img", {
                             attrs: {
                               src: "/lib/img/hand-2.png",
-                              height: "300",
                               position: "left"
                             }
                           })
@@ -36984,17 +36973,18 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "v-flex",
-                { attrs: { md6: "" } },
+                { attrs: { md6: "", sm6: "", xs12: "" } },
                 [
                   _c(
                     "v-card",
                     {
                       staticClass: "white--text ",
-                      attrs: { color: "purple", height: "460px" }
+                      attrs: { color: "purple", height: "" }
                     },
                     [
                       _c(
                         "v-flex",
+                        { attrs: { sm6: "", xs12: "" } },
                         [
                           _c(
                             "v-card-title",
@@ -37034,13 +37024,12 @@ var render = function() {
                       _vm._v(" "),
                       _c(
                         "v-flex",
+                        { attrs: { sm6: "", xs12: "" } },
                         [
-                          _c("v-img", {
+                          _c("v-card-media", {
                             attrs: {
                               src: "/lib/img/hand-3.png",
-                              position: "left",
-                              height: "250",
-                              contain: ""
+                              position: "right"
                             }
                           })
                         ],
@@ -37055,7 +37044,7 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "v-flex",
-                { attrs: { md6: "" } },
+                { attrs: { md6: "", sm6: "", xs12: "", "d-flex": "" } },
                 [
                   _c(
                     "v-card",
@@ -37064,7 +37053,6 @@ var render = function() {
                       attrs: {
                         img: "/lib/img/top-pht-2.jpg",
                         tile: "",
-                        height: "460px",
                         contain: ""
                       }
                     },
@@ -37164,7 +37152,7 @@ var render = function() {
                         ]
                       ),
                       _vm._v(" "),
-                      _c("v-card-text", [
+                      _c("v-card-text", { staticClass: "text-xs-center" }, [
                         _c("strong", [_vm._v("Simple | Multilingual | Faster")])
                       ])
                     ],
@@ -37312,7 +37300,10 @@ var render = function() {
         [
           _c(
             "v-layout",
-            { attrs: { row: "", wrap: "" } },
+            {
+              staticClass: "canbe--icon-position",
+              attrs: { row: "", wrap: "", layout: "", "justify-center": "" }
+            },
             [
               _c("v-flex", { attrs: { xs6: "" } }, [
                 _c("a", {

@@ -5,7 +5,6 @@
     </v-content>
   </v-app>
 </template>
-
 <script>
 </script>
 

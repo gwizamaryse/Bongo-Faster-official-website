@@ -3,23 +3,26 @@
     <!-- 1st Container:Title -->
     <v-container fluid class="pa-0">
       <v-layout row wrap>
-        <v-flex md6>
-          <v-card tile class="yellow black--text elevation-0 transparent" height="500px">
+        <v-flex md6 sm6 xs12 d-flex>
+          <v-card tile class="yellow black--text elevation-0 transparent pt-5" >  
             <v-card-text>
-              <h1 class="mb-2 display-3 text-xs-center">BONGO<br>FASTER</h1>
-              <p class="title align-content-center italic">UDART Mobile App: Mwendokasi on your hands</p>
-              <v-container grid-list xs md>
-                <v-layout row wrap>
-                  <v-flex><a target="_blank" href="https://play.google.com/store/apps/details?id=tz.co.bongofaster.app&hl=en" class="canbe--icon google-play"></a></v-flex>
-                  <v-flex><a target="_blank" href="https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8" class="canbe--icon app-store"></a></v-flex>
+              <h1 class="display-4 font-weight-bold text-xs-center text-no-wrap">BONGO<br>FASTER</h1>
+
+              <p class="title text-xs-center font-weight-regular.font-italic mt-1">UDART Mobile App: Mwendokasi on your hands</p>
+
+                 <v-layout class= "canbe--icon-position" align-center justify-center row mt-4 >
+                 <a target="_blank" 
+                  href="https://play.google.com/store/apps/details?id=tz.co.bongofaster.app&hl=en" class="canbe--icon google-play"></a>
+                  <a target="_blank" 
+                  href="https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8" class="canbe--icon app-store"></a>
                 </v-layout>
-              </v-container>
+              
             </v-card-text>
           </v-card>
         </v-flex>
-        <v-flex class=" md6">
-          <v-card tile class="yellow black--text elevation-0 transparent" height="500px">
-            <v-img src="/lib/img/hand-1.png" class=" contain" max-height="auto"></v-img>
+        <v-flex md6 sm6 xs12 d-flex >
+          <v-card tile class="yellow black--text elevation-0 transparent" >
+            <v-card-media src="/lib/img/hand-1.png" cover aspect-ratio="1.4" contain></v-card-media>
           </v-card>
         </v-flex>
       </v-layout>
@@ -28,11 +31,12 @@
     <!-- 2nd Container:Explanation -->
     <v-container fluid class="pa-0">
       <v-layout row wrap>
-        <v-flex md6>
-          <!-- first card with lady background -->
-          <v-card img ="/lib/img/top-pht-1.jpg" tile height="460" class="pl-4">
+
+        <v-flex md6 sm6 xs12 d-flex>
+          
+          <v-card img ="/lib/img/top-pht-1.jpg" tile  class="pl-5">
             <v-card-title primary-title>
-              <div class="headline">Realtime UDART Info.</div>
+              <div class="headline">Realtime UDART Info</div>
             </v-card-title>
             <v-card-text class="md-2 layout justify-start">
               <strong>
@@ -46,30 +50,32 @@
             </v-flex>
           </v-card>
         </v-flex>
-        <!-- 2nd block, card with green background -->
-        <v-flex md6>
-          <v-card color=green tile height="460px" class="white--text" row wrap>
-            <v-flex>
-              <v-card-title primary-title class="layout justify-center">
-                <div class="headline">
+        
+        <v-flex md6 sm6 xs12 >
+          <v-card color=green tile class="white--text" row wrap>
+            <v-flex >
+              <v-card-title class="md-title " >
+                Realtime UDART Info
                   Get Route Information,<br>
                   Know station locations,<br>
                   Get Bus Location, Plan Your Trip
-                  </div>
+                  
               </v-card-title>
-              <v-card-text>
+              <v-card-text class="body ">
                 No reason to miss the bus<br>
                 No reason to be late
+              
               </v-card-text>
             </v-flex>
             <v-flex>
-              <v-img src="/lib/img/hand-2.png" height="300" position="left"></v-img>
+              <v-img src="/lib/img/hand-2.png" position="left"></v-img>
             </v-flex>
           </v-card>
         </v-flex>
-        <v-flex md6>
-          <v-card color=purple class="white--text " height="460px">
-            <v-flex>
+
+        <v-flex md6 sm6 xs12>
+          <v-card color=purple class="white--text " height="">
+            <v-flex sm6 xs12>
               <v-card-title primary-title class="layout justify-center">
                 <div class="headline">Give Feedback</div>
               </v-card-title>
@@ -82,13 +88,15 @@
                 </strong>
               </v-card-text>
             </v-flex>
-            <v-flex>
-              <v-img src="/lib/img/hand-3.png" position="left" height="250" contain></v-img>
+            <v-flex sm6 xs12>
+              <v-card-media src="/lib/img/hand-3.png" position="right" ></v-card-media>
             </v-flex>
           </v-card>
         </v-flex>
-        <v-flex md6>
-          <v-card class="elevation-0 transparent" img ="/lib/img/top-pht-2.jpg" tile height="460px" contain>
+
+
+        <v-flex md6 sm6 xs12 d-flex >
+          <v-card class="elevation-0 transparent" img ="/lib/img/top-pht-2.jpg" tile  contain>
             <v-card-title primary-title class="layout justify-center">
               <div class="headline">
                 Get News Updates, Safety tips,<br>
@@ -118,13 +126,14 @@
             <v-card-title primary-title class="layout justify-center">
               <div class="headline">How to Use Bongofaster</div>
             </v-card-title>
-            <v-card-text><strong>Simple | Multilingual | Faster</strong></v-card-text>
+            <v-card-text class="text-xs-center"><strong>Simple | Multilingual | Faster</strong></v-card-text>
           </v-card>
         </v-flex>
       </v-layout>
     </v-container>
 
     <!-- 4th Container:Explanation -->
+    
     <v-container fluid class="pa-0">
       <v-layout row wrap >
         <v-flex md4 sm12 xs12>
@@ -153,7 +162,7 @@
 
     <!-- 5th Container:Market Icons -->
     <v-container fluid class="px-1 py-3">
-      <v-layout row wrap>
+      <v-layout row wrap layout justify-center class="canbe--icon-position">
         <v-flex xs6><a target="_blank" href="https://play.google.com/store/apps/details?id=tz.co.bongofaster.app&hl=en" class="canbe--icon google-play"></a></v-flex>
         <v-flex xs6><a target="_blank" href="https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8" class="canbe--icon app-store"></a></v-flex>
       </v-layout>
@@ -218,6 +227,13 @@ export default {
 }
 .canbe--text-on-img{
 	line-height: 150% !important;
-	text-shadow: 1px 1px 0 rgba(255,255,255, 0.5), 1px 0 0 rgba(255,255,255, 0.5), 1px -1px 0 rgba(255,255,255, 0.5), 0 1px 0 rgba(255,255,255, 0.5), 0 -1px 0 rgba(255,255,255, 0.5), -1px 1px 0 rgba(255,255,255, 0.5), -1px 0 0 rgba(255,255,255, 0.5), -1px -1px 0 rgba(255,255,255, 0.5);
+	text-shadow: 1px 1px 0 
+  rgba(255,255,255, 0.5), 1px 0 0 rgba(255,255,255, 0.5), 1px -1px 0 rgba(255,255,255, 0.5), 0 1px 0 rgba(255,255,255, 0.5), 0 -1px 0 rgba(255,255,255, 0.5), -1px 1px 0 rgba(255,255,255, 0.5), -1px 0 0 rgba(255,255,255, 0.5), -1px -1px 0 rgba(255,255,255, 0.5);
+}
+.canbe--icon-position{
+  width: 300px;
+  margin: auto;
+  -webkit-transition: 0.3s ease;
+	transition: 0.3s ease
 }
 </style>
