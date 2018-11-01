@@ -3,7 +3,7 @@
     <!-- 1st Container:Title -->
     <v-container fluid class="pa-0">
       <v-layout row wrap>
-        <v-flex md6 sm6 xs12 d-flex>
+        <v-flex md5 sm12 xs12 d-flex>
           <v-card tile class="yellow black--text elevation-0 transparent pt-5" >  
             <v-card-text>
               <h1 class="display-4 font-weight-bold text-xs-center text-no-wrap">BONGO<br>FASTER</h1>
@@ -20,9 +20,9 @@
             </v-card-text>
           </v-card>
         </v-flex>
-        <v-flex md6 sm6 xs12 d-flex >
+        <v-flex md7 sm12 xs12 d-flex >
           <v-card tile class="yellow black--text elevation-0 transparent" >
-            <v-card-media src="/lib/img/hand-1.png" cover aspect-ratio="1.4" contain></v-card-media>
+            <v-card-media src="/lib/img/hand-1.png" cover aspect-ratio="1.3" contain></v-card-media>
           </v-card>
         </v-flex>
       </v-layout>
@@ -35,7 +35,7 @@
         <v-flex md6 sm6 xs12 d-flex>
           
           <v-card img ="/lib/img/top-pht-1.jpg" tile  class="pl-5">
-            <v-card-title primary-title>
+            <v-card-title class="canbe--text-on-img text-xs-center title">
               <div class="headline">Realtime UDART Info</div>
             </v-card-title>
             <v-card-text class="md-2 layout justify-start">
@@ -51,17 +51,17 @@
           </v-card>
         </v-flex>
         
-        <v-flex md6 sm6 xs12 >
-          <v-card color=green tile class="white--text" row wrap>
+        <v-flex md6 sm6 xs12 d-flex >
+          <v-card color=green tile class="white--text pl-5" row wrap >
             <v-flex >
-              <v-card-title class="md-title " >
+              <v-card-title class="title " >
                 Realtime UDART Info
                   Get Route Information,<br>
                   Know station locations,<br>
                   Get Bus Location, Plan Your Trip
                   
               </v-card-title>
-              <v-card-text class="body ">
+              <v-card-text class="subheading ">
                 No reason to miss the bus<br>
                 No reason to be late
               
@@ -78,25 +78,25 @@
             <v-flex sm6 xs12>
               <v-card-title primary-title class="layout justify-center">
                 <div class="headline">Give Feedback</div>
-              </v-card-title>
-              <v-card-text>
-                <strong>
+              </v-card-title >
+              <v-card-text class="pl-5 subheading " >
+                
                   we aim at satisfying our customers<br>
                   Hearing from our customers, gives courage for improvement<br>
                   UDART gives you reliable transport at reasonable cost<br>
                   Tell us your suggestions so that we remain reliable
-                </strong>
+                
               </v-card-text>
             </v-flex>
             <v-flex sm6 xs12>
-              <v-card-media src="/lib/img/hand-3.png" position="right" ></v-card-media>
+              <v-card-media src="/lib/img/hand-3.png" aspect-ratio="1" ></v-card-media>
             </v-flex>
           </v-card>
         </v-flex>
 
 
         <v-flex md6 sm6 xs12 d-flex >
-          <v-card class="elevation-0 transparent" img ="/lib/img/top-pht-2.jpg" tile  contain>
+          <v-card class="elevation-0 transparent pl-5" img ="/lib/img/top-pht-2.jpg" tile  contain>
             <v-card-title primary-title class="layout justify-center">
               <div class="headline">
                 Get News Updates, Safety tips,<br>
