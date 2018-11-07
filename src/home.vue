@@ -4,25 +4,22 @@
     <v-container fluid class="pa-0">
       <v-layout row wrap>
         <v-flex md5 sm12 xs12 d-flex>
-          <v-card tile class="yellow black--text elevation-0 transparent pt-5" >  
-            <v-card-text>
-              <h1 class="display-4 font-weight-bold text-xs-center text-no-wrap">BONGO<br>FASTER</h1>
-
+          <v-card tile class="yellow black--text elevation-0 transparent pa-5" >  
+            <v-img src="/lib/img/logo-bongofaster.svg">     </v-img>
               <p class="title text-xs-center font-weight-regular.font-italic mt-1">UDART Mobile App: Mwendokasi on your hands</p>
-
-                 <v-layout class= "canbe--icon-position" align-center justify-center row mt-4 >
+                 <v-layout class= "canbe--icon-position" align-center justify-center row pt-4 >
                  <a target="_blank" 
                   href="https://play.google.com/store/apps/details?id=tz.co.bongofaster.app&hl=en" class="canbe--icon google-play"></a>
                   <a target="_blank" 
                   href="https://itunes.apple.com/jp/app/bongofaster/id1338603772?mt=8" class="canbe--icon app-store"></a>
                 </v-layout>
               
-            </v-card-text>
+           
           </v-card>
         </v-flex>
         <v-flex md7 sm12 xs12 d-flex >
           <v-card tile class="yellow black--text elevation-0 transparent" >
-            <v-card-media src="/lib/img/hand-1.png" cover aspect-ratio="1.3" contain></v-card-media>
+            <v-img src="/lib/img/hand-1.png" cover aspect-ratio="1.3" contain></v-img>
           </v-card>
         </v-flex>
       </v-layout>
@@ -76,7 +73,7 @@
         <v-flex md6 sm6 xs12>
           <v-card color=purple class="white--text " height="">
             <v-flex sm6 xs12>
-              <v-card-title primary-title class="layout justify-center">
+              <v-card-title class= "primary-title pl-5">
                 <div class="headline">Give Feedback</div>
               </v-card-title >
               <v-card-text class="pl-5 subheading " >
@@ -89,7 +86,7 @@
               </v-card-text>
             </v-flex>
             <v-flex sm6 xs12>
-              <v-card-media src="/lib/img/hand-3.png" aspect-ratio="1" ></v-card-media>
+                 <v-img src="/lib/img/hand-3.png" aspect-ratio="1" position="right"></v-img>
             </v-flex>
           </v-card>
         </v-flex>
@@ -97,7 +94,7 @@
 
         <v-flex md6 sm6 xs12 d-flex >
           <v-card class="elevation-0 transparent pl-5" img ="/lib/img/top-pht-2.jpg" tile  contain>
-            <v-card-title primary-title class="layout justify-center">
+            <v-card-title primary-title>
               <div class="headline">
                 Get News Updates, Safety tips,<br>
                 guides and share
@@ -138,23 +135,23 @@
       <v-layout row wrap >
         <v-flex md4 sm12 xs12>
           <v-card tile color="yellow">
-            <v-card-media src="/lib/img/top-pht-3.png" cover aspect-ratio>
+            <v-img src="/lib/img/top-pht-3.png" cover aspect-ratio>
               <v-card-text class="canbe--text-on-img text-xs-center title">Knowing your current location,<br>Makes you enjoy all features</v-card-text>
-            </v-card-media>
+            </v-img>
           </v-card>
         </v-flex>
         <v-flex md4 sm6 xs12>
           <v-card tile color="green">
-            <v-card-media src="/lib/img/top-pht-5.png" cover aspect-ratio>
+            <v-img src="/lib/img/top-pht-5.png" cover aspect-ratio>
               <v-card-text class="canbe--text-on-img text-xs-center title">Search your stations accordingly</v-card-text>
-            </v-card-media>
+            </v-img>
           </v-card>
         </v-flex>
         <v-flex md4 sm6 xs12>
           <v-card tile color="blue">
-            <v-card-media src="/lib/img/top-pht-4.png" cover aspect-ratio>
+            <v-img src="/lib/img/top-pht-4.png" cover aspect-ratio>
               <v-card-text class="canbe--text-on-img text-xs-center title">Check the time table</v-card-text>
-            </v-card-media>
+            </v-img>
           </v-card>
         </v-flex>
       </v-layout>
